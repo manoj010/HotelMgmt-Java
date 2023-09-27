@@ -116,7 +116,7 @@ public class NewCustomer extends JFrame {
                     conn c = new conn();
                     ResultSet rs = c.s.executeQuery("select * from room");
                     while(rs.next()){
-                        c1.add(rs.getString("room_number"));    
+                        c1.add(rs.getString("roomnumber"));    
                     }
                 }catch(Exception e){ }
                 c1.setBounds(271, 274, 150, 20);
