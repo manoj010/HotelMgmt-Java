@@ -64,7 +64,7 @@ public class NewCustomer extends JFrame {
 		lblId.setBounds(35, 76, 200, 14);
 		contentPane.add(lblId);
                 
-                comboBox = new JComboBox(new String[] {"Passport", "Aadhar Card", "Voter Id", "Driving license"});
+                comboBox = new JComboBox(new String[] {"Passport", "Citizenship", "Voter Id", "Driving license"});
 		comboBox.setBounds(271, 73, 150, 20);
 		contentPane.add(comboBox);
                 
@@ -155,8 +155,8 @@ public class NewCustomer extends JFrame {
 			public void actionPerformed(ActionEvent e) {
                             conn c = new conn();
                             String radio = null;
-                            
-                            if(r1.isSelected()){ 
+                             
+                             if(r1.isSelected()){ 
                                 radio = "Male";
                             }
                             else if(r2.isSelected()){ 

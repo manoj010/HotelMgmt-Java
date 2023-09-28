@@ -120,7 +120,7 @@ public class Employee extends JFrame {
 		l2.setBounds(656, 11, 86, 14);
 		contentPane.add(l2);
                 
-                JLabel l3 = new JLabel("Aadhar");
+                JLabel l3 = new JLabel("Citizenship");
 		l3.setBounds(786, 11, 86, 14);
 		contentPane.add(l3);
                 
